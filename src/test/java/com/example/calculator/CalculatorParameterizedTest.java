@@ -11,8 +11,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class CalculatorParameterizedTest {
-    public static final Double NUM = 1.0;
-    public static final Double NUM1 = 2.0;
+
 
     @ParameterizedTest
     @MethodSource("provideParamForTest")
